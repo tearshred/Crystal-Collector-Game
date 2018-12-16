@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added Google Font Library -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+    <!--Added links to Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Content to be inside a set wrapper -->
+    <div class="wrapper">
+
+        <div class="title">
+            <h1>Crystal Collector Game</h1>
+        </div>
+
+        <div class="instructions">
+            <h3>How To Play</h3>
+
+            <ul>
+                <li>You will be given a random number at the start of the game.</li>
+
+                <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your total score.</li>
+
+                <li>You win the game by matching your total score to random number, you lose the game if your total
+                    score
+                    goes above the random number.</li>
+
+                <li>The value of each crystal is hidden from you until you click on it.</li>
+
+                <li>Each time when the game starts, the game will change the values of each crystal.</li>
+            </ul>
+        </div>
+
+        <!-- The div containing computer random guess that a player needs to beat -->
+        <div class="computer-guess">
+            <h1 id="computer-guess"></h1>
+        </div>
+
+        <!-- Crystal images -->
+        <div class="crystal-images"></div>
+
+        <div class="score-container">
+
+            <!-- Counter that displays wins and losses -->
+            <div class="score-counter"></div>
+
+            <!-- Counter that displays player's current points -->
+            <div class="player-total">
+                <h1>Current score:</h1>
+                </br>
+                <h1 class="score"></h1>
+            </div>
+        </div>
+
+
+    </div>
+    <script type="text/javascript" src="assets/js/game.js"></script>
+</body>
+
+</html>

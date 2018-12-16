@@ -1,0 +1,117 @@
+body{
+    background: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+
+.title{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    background: #FFCB05;
+}
+
+.title > h1{
+    font-size: 72px;
+}
+
+.instructions{
+    padding: 15px;
+}
+
+.instructions > h3 {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.instructions > ul{
+    margin-left: 10px;
+}
+
+.instructions > ul > li {
+    padding: 5px;
+    list-style-type: disc;
+}
+
+.computer-guess{
+    text-align: center;
+    padding: 15px;
+    background: #36B1BF;
+}
+
+.computer-guess > h1{
+    font-size: 48px;
+    color: #E9F1DF;
+    font-weight: bold;
+}
+
+.crystal-images{
+    padding: 25px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.crystal-images > img{
+    display: inline-block; 
+}
+
+.crystal-images > img:hover{
+    transform: scale(0.8, 0.8);
+    cursor: pointer;
+}
+
+.score-container{
+    text-align: center;
+    background: #E9F1DF;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.score-container > h2{
+    padding-top: 25px;
+    font-size: 24px;
+}
+
+.score-counter{
+    height: 64px;
+    display: inline-block;
+    padding: 25px;
+    text-align: center;
+    background: #36B1BF;
+    border-radius: 15px;
+    vertical-align: top;
+}
+
+.score-counter > h1{
+    font-size: 32px;
+    color: #E9F1DF;
+}
+
+.player-total{
+    height: 64px;
+    display: inline-block;
+    padding: 25px;
+    text-align: center;
+    background: #36B1BF;
+    border-radius: 15px;
+    vertical-align: top;
+}
+
+.player-total > h1{
+    font-size: 32px;
+    color: #E9F1DF;
+}
